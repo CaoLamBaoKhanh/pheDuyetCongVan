@@ -1,0 +1,80 @@
+{
+    "className": "org.joget.apps.form.model.Form",
+    "elements": [{
+        "className": "org.joget.apps.form.model.Section",
+        "elements": [{
+            "className": "org.joget.apps.form.model.Column",
+            "elements": [
+                {
+                    "className": "org.joget.apps.form.lib.CustomHTML",
+                    "properties": {
+                        "autoPopulate": "",
+                        "id": "field1",
+                        "label": "",
+                        "value": "<span class=\"label\">#i18n.Ref# #<\/span> <b>#form.app_fd_thongTinBieuMau.ref#<\/b><br/><br/>\r\n<span class=\"label\">#i18n.Tiêu đề#<\/span>  <b>#form.app_fd_thongTinBieuMau.tieu_de#<\/b><br/><br/>\r\n<span class=\"label\">#i18n.Người gửi#<\/span>  <b>#form.app_fd_thongTinBieuMau.nguoi_gui#<\/b><br/><br/>\r\n<!--span class=\"label\">#i18n.Nội dung#<\/span>  <b>#form.app_fd_thongTinBieuMau.noi_dung#<\/b><br/><br/>--->\r\n<br/>\r\n<span class=\"label\">#i18n.Ngày gửi#<\/span>  <b>#form.app_fd_thongTinBieuMau.ngay_gui#<\/b><br/><br/>\r\n<span class=\"label\">#i18n.Trạng thái#<\/span>  <b><span style=\"font-size:20px; color:blue;\">#form.app_fd_thongTinBieuMau.status#<\/span><\/b><br/><br/>\r\n<br/>\r\n<!--<span class=\"label\">#i18n.Approver action by#<\/span>  <b>#form.j_expense_claim.ApprovedBy# #form.j_expense_claim.ApprovedDate#<\/b><br/><br/>\r\n<!--\r\n<span class=\"label\">Approver remark<\/span>  <b>#form.j_expense_claim.approval_remark#<\/b><br/><br/>\r\n<br/> --->\r\n<!--<span class=\"label\">#i18n.Finance dept action by#<\/span>  <b>#form.j_expense_claim.FinanceApprovedBy# #form.j_expense_claim.FinanceApprovedDate#<\/b><br/><br/>\r\n<!--\r\n<span class=\"label\">Finance dept remark<\/span>  <b>#form.j_expense_claim.finance_remark#<\/b><br/><br/> --->\r\n"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.form.lib.FileUpload",
+                    "properties": {
+                        "attachment": "true",
+                        "fileType": "",
+                        "fileTypeMsg": "Invalid file type",
+                        "id": "noi_dung",
+                        "label": "Nội dung",
+                        "maxSize": "",
+                        "maxSizeMsg": "File size limit exceeded",
+                        "multiple": "",
+                        "padding": "",
+                        "permissionType": "",
+                        "readonly": "",
+                        "removeFile": "",
+                        "resizeHeight": "",
+                        "resizeMethod": "",
+                        "resizeQuality": "0.8",
+                        "resizeWidth": "",
+                        "size": "",
+                        "validator": {
+                            "className": "",
+                            "properties": {}
+                        }
+                    }
+                }
+            ],
+            "properties": {"width": "100%"}
+        }],
+        "properties": {
+            "comment": "",
+            "id": "section1",
+            "join": "",
+            "label": "",
+            "loadBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "permission": {
+                "className": "",
+                "properties": {}
+            },
+            "permissionReadonly": "",
+            "readonly": "",
+            "readonlyLabel": "",
+            "regex": "",
+            "reverse": "",
+            "storeBinder": {
+                "className": "",
+                "properties": {}
+            },
+            "visibilityControl": "",
+            "visibilityValue": ""
+        }
+    }],
+    "properties": {
+        "description": "",
+        "id": "bieuMauView",
+        "loadBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "name": "Biểu mẫu view",
+        "storeBinder": {"className": "org.joget.apps.form.lib.WorkflowFormBinder"},
+        "tableName": "thongTinBieuMau"
+    }
+}

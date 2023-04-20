@@ -1,0 +1,23 @@
+<appDefinition>
+   <id>pheDuyetCongVan</id>
+   <version></version>
+   <name>Phê Duyệt Công Văn</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList>
+      <environmentVariable>
+         <id>counter</id>
+         <appId>pheDuyetCongVan</appId>
+         <appVersion>1</appVersion>
+         <value>48</value>
+         <remarks>Used for plugin: Id Generator Field</remarks>
+      </environmentVariable>
+   </environmentVariableList>
+   <messageList/>
+   <resourceList/>
+   <license>ZmGM4oysNA4XAg8aHa2PRABS4Apbk/Twy7klGpdZTfWZ0IYlox1UC825Vl8aPZXb</license>
+</appDefinition>
